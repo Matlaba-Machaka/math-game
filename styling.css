@@ -1,0 +1,194 @@
+body {
+    font-family: 'Inter', Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background: #f7f7f7;
+    color: #1a1a1a;
+}
+
+#container {
+    background: #ffffff;
+    border: 1px solid #d1d1d1;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    padding: 30px;
+    max-width: 600px;
+    width: 90%;
+    text-align: center;
+}
+
+.difficulty-button {
+    padding: 10px 20px;
+    margin: 5px;
+    border: 1px solid #1a1a1a;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.difficulty-button:hover {
+    background-color: #f0f0f0;
+}
+
+.difficulty-button:active {
+    background-color: #e0e0e0;
+}
+
+#startreset {
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: 1px solid #1a1a1a;
+    border-radius: 8px;
+    background-color: #ffffff;
+    color: #1a1a1a;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#startreset:hover {
+    background-color: #f0f0f0;
+}
+
+#startreset:active {
+    background-color: #e0e0e0;
+}
+
+.box {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    border: 1px solid #d1d1d1;
+    border-radius: 10px;
+    margin: 10px;
+    line-height: 80px;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: #ffffff;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.box:hover {
+    background-color: #f0f0f0;
+    border-color: #1a1a1a;
+}
+
+.box:active {
+    background-color: #e0e0e0;
+}
+
+#question {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 20px 0;
+    color: #1a1a1a;
+}
+
+#score, #timeremaining {
+    font-size: 18px;
+    font-weight: 600;
+    margin: 10px 0;
+    color: #1a1a1a;
+}
+
+#scorevalue, #timeremainingvalue {
+    color: #1a1a1a;
+}
+
+#instruction {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #666666;
+}
+
+#correct, #wrong {
+    display: none;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 8px;
+    transition: opacity 0.5s ease;
+}
+
+#correct {
+    background-color: #f0f0f0;
+    color: #1a1a1a;
+}
+
+#wrong {
+    background-color: #e0e0e0;
+    color: #1a1a1a;
+}
+
+#correct.show, #wrong.show {
+    display: block;
+    opacity: 1;
+}
+
+#correct i, #wrong i {
+    margin-right: 8px;
+}
+
+#gameOver {
+    display: none;
+    font-size: 32px;
+    font-weight: 600;
+    color: #1a1a1a;
+    background: #ffffff;
+    padding: 20px;
+    border: 1px solid #d1d1d1;
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+#gameOver.show {
+    display: block;
+}
+
+#leaderboard {
+    margin-top: 30px;
+    width: 90%;
+    max-width: 400px;
+}
+
+#leaderboard h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #1a1a1a;
+    text-align: center;
+}
+
+#scoreList {
+    list-style: none;
+    padding: 0;
+}
+
+#scoreList li {
+    background: #ffffff;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #d1d1d1;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 500;
+    transition: background-color 0.3s ease;
+}
+
+#scoreList li:nth-child(odd) {
+    background: #f7f7f7;
+}
+
+#scoreList li:hover {
+    background: #f0f0f0;
+}
