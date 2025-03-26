@@ -18,3 +18,8 @@ Work in progress—I'm planning to add more features like sound effects and diff
 ## Tech Stack
 - HTML, CSS, JavaScript
 - Uses `localStorage` for saving scores
+
+## Link
+```bash
+https://matlaba-machaka.github.io/math-game/
+```
