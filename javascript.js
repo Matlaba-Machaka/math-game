@@ -1,4 +1,4 @@
-// Let's make a fun little math game! - started this on a rainy afternoon :)
+// Let's make a fun little math game!
 let isPlaying = false; // Track if game is running
 let score = 0; // Player's score
 let timeremaining; // Time left in seconds
