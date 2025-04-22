@@ -8,12 +8,11 @@ A fun and interactive Maths Game designed to challenge your multiplication skill
 4. Try to get as many right as possible before the timer runs out!
 
 ## Features
-- Clean black-and-white design
 - Leaderboard using `localStorage`
 - Three difficulty levels
 
 ## Status
-Work in progress—I'm planning to add more features like sound effects and different question types.
+Work in progress—I'm planning to add more features.
 
 ## Tech Stack
 - HTML, CSS, JavaScript
