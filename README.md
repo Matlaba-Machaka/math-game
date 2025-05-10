@@ -11,9 +11,6 @@ A fun and interactive Maths Game designed to challenge your multiplication skill
 - Leaderboard using `localStorage`
 - Three difficulty levels
 
-## Status
-Work in progress—I'm planning to add more features.
-
 ## Tech Stack
 - HTML, CSS, JavaScript
 - Uses `localStorage` for saving scores
